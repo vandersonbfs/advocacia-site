@@ -1,1 +1,8 @@
-<p>faq works!</p>
+<section class="faq-section">
+    <h2>Perguntas Frequentes</h2>
+    <div *ngFor="let faq of faqs">
+      <h3>{{ faq.question }}</h3>
+      <p>{{ faq.answer }}</p>
+    </div>
+  </section>
+  
